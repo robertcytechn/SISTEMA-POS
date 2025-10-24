@@ -116,11 +116,11 @@ WSGI_APPLICATION = 'POS.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pos',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
-        'NAME': 'POS',
     }
 }
 
