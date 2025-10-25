@@ -44,7 +44,9 @@ THIRD_PARTY_APPS = [
     'corsheaders',
 ]
 
-OWN_APPS = []
+OWN_APPS = [
+    'sucursales',
+]
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + OWN_APPS
 
